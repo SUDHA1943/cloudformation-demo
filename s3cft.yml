@@ -3,6 +3,6 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
 Outputs:
-  BucketName:bucket
+  BucketName:
     Value: !Ref 'S3Bucket'
     Description: test.
